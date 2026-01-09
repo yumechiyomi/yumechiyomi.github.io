@@ -38,6 +38,4 @@ permalink: /about/
 <br/><br/>
 <p align='center'>
 <a href="#"><img src="https://img.shields.io/badge/%23-DAC6C2?style=for-the-badge"/></a> <a href="https://phongtnt.github.io"><img src="https://img.shields.io/badge/WEBSITE-DAC6C2?style=for-the-badge"/></a> <a href="https://github.com/phongtnt"><img src="https://img.shields.io/badge/GITHUB-DAC6C2?style=for-the-badge"/></a> <a href="https://scratch.mit.edu/users/phong-TNT/"><img src="https://img.shields.io/badge/SCRATCH-DAC6C2?style=for-the-badge"/></a> <a href="#"><img src="https://img.shields.io/badge/%23-DAC6C2?style=for-the-badge"/>
-</p>
 <img src="https://i.ibb.co/5r2WJZy/Elaina-With-Effective-Python-1-2.webp" width="100%" align="center" />
-</div>
