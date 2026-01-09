@@ -1,3 +1,8 @@
+---
+layout: post
+title: Biên Niên Sử Chuyển Sinh Của Tôi Và Lâu Đài Trên Không
+---
+
 # Biên Niên Sử Chuyển Sinh Của Tôi Và Lâu Đài Trên Không  
 ### Phần I: Khởi Đầu Sai Số
 
