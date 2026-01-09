@@ -3,7 +3,7 @@ layout: page
 title: About me
 permalink: /about/
 ---
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:D2D2D7,50:C8C8CD,100:BEBEC3&height=200&section=header&text=Elaina&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Interests:%20science,%20programming,%20computers,%20DIY,%20etc.&descSize=16&descAlignY=55" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:D2D2D7,50:C8C8CD,100:BEBEC3&height=200&section=header&text=Yume%20Chiyomi(Elaina)&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Interests:%20science,%20programming,%20computers,%20DIY,%20etc.&descSize=16&descAlignY=55" width="100%"/>
 
 <div>
 <img width="377" align="right" alt="senyum" src="https://github.com/user-attachments/assets/cb2d803e-7260-4030-be0b-59a8bc65b066" />
