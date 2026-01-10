@@ -290,3 +290,41 @@ footer {
     transform: translateY(0);
   }
 }
+/* ===============================
+   POST META
+================================ */
+
+.post-meta {
+  margin: 10px 0 18px;
+  font-size: 14px;
+  color: #8a87c6;
+}
+
+.post-meta span {
+  margin-right: 14px;
+}
+
+/* DATE */
+.post-date::before {
+  content: "📅 ";
+}
+
+/* CATEGORY */
+.post-category a {
+  background: rgba(140, 130, 220, 0.15);
+  padding: 4px 10px;
+  border-radius: 999px;
+  margin-right: 6px;
+  font-size: 13px;
+}
+
+/* TAG */
+.post-tags a {
+  color: #7c79d6;
+  margin-right: 6px;
+  font-size: 13px;
+}
+
+.post-tags a::before {
+  content: "#";
+}
