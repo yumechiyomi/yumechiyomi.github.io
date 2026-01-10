@@ -380,3 +380,58 @@ footer {
 .meta-tag {
   background: linear-gradient(135deg, #fff4fa, #ffe8f3);
 }
+/* ===============================
+   POST META PILLS – SVG VERSION
+================================ */
+
+.post-meta {
+  margin: 14px 0 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* pill chung */
+.meta-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+
+  padding: 6px 14px;
+  font-size: 13px;
+  line-height: 1;
+
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(6px);
+
+  color: #5b5b6a;
+  text-decoration: none;
+
+  box-shadow:
+    0 6px 16px rgba(120,110,200,.18),
+    inset 0 0 0 1px rgba(255,255,255,.6);
+
+  transition: transform .25s ease, box-shadow .25s ease, color .25s ease;
+}
+
+/* hover */
+.meta-pill:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(120,110,200,.28);
+}
+
+/* riêng từng loại pill */
+.meta-date { background: linear-gradient(135deg, #fdfbff, #f1efff); }
+.meta-category { background: linear-gradient(135deg, #f4f7ff, #e9edff); }
+.meta-tag { background: linear-gradient(135deg, #fff4fa, #ffe8f3); }
+
+/* ICON */
+.meta-pill .meta-icon {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
+
+/* link bên ngoài pill */
+.post-meta a { text-decoration: none; }
