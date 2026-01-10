@@ -1,6 +1,13 @@
 ---
 layout: post
 title: Elaina Fuwari – Theme Jekyll phong cách anime nhẹ nhàng
+categories: Web Theme
+tags:
+  - Website
+  - Blog
+  - Jekyll
+  - Elaina
+  - Github Pages
 ---
 > 🌙 *Elaina Fuwari — nhẹ nhàng, yên tĩnh và mơ mộng,  
 > như một chuyến hành trình qua bầu trời pastel.*
