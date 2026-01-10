@@ -435,3 +435,47 @@ footer {
 
 /* link bên ngoài pill */
 .post-meta a { text-decoration: none; }
+/* ================================
+   TAGS LIST – FUWARI CARD STYLE
+================================= */
+
+.nav-tabs-vertical {
+  list-style: none;
+  padding: 14px;
+  background: rgba(255,255,255,0.88);
+  backdrop-filter: blur(8px);
+  border-radius: 18px;
+  box-shadow:
+    0 20px 40px rgba(120,110,200,.15),
+    inset 0 0 0 1px rgba(255,255,255,.6);
+}
+
+.nav-tabs-vertical li {
+  margin-bottom: 10px;
+}
+
+.nav-tabs-vertical a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 14px;
+  text-decoration: none;
+  color: #3f3f46;
+  font-weight: 500;
+  border-radius: 14px;
+  transition: transform .25s ease, box-shadow .25s ease, background .25s ease;
+}
+
+.nav-tabs-vertical a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(120,110,200,.28);
+  background: linear-gradient(135deg, #f4f7ff, #e9edff);
+}
+
+.badge {
+  background: #d0c8ff;
+  color: #3f3f46;
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 999px;
+}
