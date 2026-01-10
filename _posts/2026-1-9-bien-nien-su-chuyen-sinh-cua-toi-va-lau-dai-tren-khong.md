@@ -47,7 +47,7 @@ Mà là câu chuyện về **những gì không được ghi — nhưng vẫn ti
 
 ## Đọc online
 **Phần 1**
-👉 **[Đọc bản online tại đây](https://drive.google.com/file/d/18PZwfBezPLSWme0LSRYukpB0GZ7sJmzE/view)**
+=> **[Đọc bản online tại đây](https://drive.google.com/file/d/18PZwfBezPLSWme0LSRYukpB0GZ7sJmzE/view)**
 
 *(Link dẫn đến bản đọc chính thức do tác giả quản lý)*
 
