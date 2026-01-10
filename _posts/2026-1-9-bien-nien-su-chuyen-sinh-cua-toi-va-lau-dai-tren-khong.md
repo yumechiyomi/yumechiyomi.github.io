@@ -2,6 +2,15 @@
 layout: post
 title: Biên Niên Sử Chuyển Sinh Của Tôi Và Lâu Đài Trên Không
 categories: novel
+tags:
+  - chuyển sinh
+  - fantasy
+  - biên niên sử
+  - học viện
+  - hệ thống
+  - ngôi thứ nhất
+  - slice of life
+  - tâm lý
 ---
 
 ### Phần I: Khởi Đầu Sai Số
