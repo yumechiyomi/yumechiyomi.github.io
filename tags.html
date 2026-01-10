@@ -1,0 +1,25 @@
+---
+layout: page
+title: Tags
+permalink: /tags/
+---
+<div class="container">
+  <h1>Tags</h1>
+
+  <div class="col-sm-3 col-xs-6">
+    <ul class="nav nav-tabs-vertical">
+      {% assign tags_list = site.tags | sort %}
+      {% for tag in tags_list %}
+        <li>
+          <a href="{{ site.baseurl }}/tags/#{{ tag[0] | slugify }}" data-toggle="tab">
+            {{ tag[0] | capitalize }}
+            <span class="badge pull-right">({{ tag[1].size }} post)</span>
+          </a>
+        </li>
+      {% endfor %}
+      {% assign tags_list = nil %}
+    </ul>
+  </div>
+
+  <div class="clearfix"></div>
+</div>
