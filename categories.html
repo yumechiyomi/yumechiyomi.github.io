@@ -2,8 +2,8 @@
 layout: page
 title: Categories
 ---
-
-<div class="col-sm-3 col-xs-6">
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+<div id="main" role="main" class="container">
     <ul class="nav nav-tabs-vertical">
       {% assign categories_list = site.categories %}
       {% if categories_list.first[0] == null %}
