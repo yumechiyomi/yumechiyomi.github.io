@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Biên Niên Sử Chuyển Sinh Của Tôi Và Lâu Đài Trên Không
-categories: novel
+categories: Novel
 tags:
   - chuyển sinh
   - fantasy
