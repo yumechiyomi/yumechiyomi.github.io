@@ -207,3 +207,86 @@ footer {
 
 @import "highlights";
 @import "svg-icons";
+/* =========================================
+   CATEGORY PAGE – FUWARI CARD
+========================================= */
+
+/* khối bao danh mục */
+.nav-tabs-vertical {
+  padding: 16px 14px;
+  margin: 24px 0;
+
+  background: linear-gradient(
+    135deg,
+    rgba(246, 245, 255, 0.9),
+    rgba(239, 239, 251, 0.9)
+  );
+
+  border-radius: 20px;
+
+  box-shadow:
+    inset 0 0 0 1px rgba(180, 175, 255, 0.35),
+    0 14px 34px rgba(120, 110, 200, 0.18);
+
+  animation: fuwari-category .6s ease both;
+}
+
+/* mỗi item */
+.nav-tabs-vertical li {
+  list-style: none;
+  margin: 6px 0;
+}
+
+/* link category */
+.nav-tabs-vertical li a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px 14px;
+  border-radius: 14px;
+
+  color: #4b4b63;
+  font-weight: 500;
+
+  background: rgba(255, 255, 255, 0.65);
+
+  transition: all .25s ease;
+}
+
+/* hover */
+.nav-tabs-vertical li a:hover {
+  background: rgba(255, 255, 255, 0.95);
+  transform: translateX(4px);
+
+  box-shadow:
+    0 8px 20px rgba(120, 110, 200, 0.22);
+}
+
+/* badge số bài */
+.nav-tabs-vertical .badge {
+  background: rgba(138, 134, 216, 0.18);
+  color: #6a67c7;
+  font-size: 12px;
+  font-weight: 500;
+
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+
+/* bỏ style bootstrap thừa (an toàn) */
+.nav-tabs-vertical > li > a {
+  border: none;
+}
+
+/* animation */
+@keyframes fuwari-category {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
