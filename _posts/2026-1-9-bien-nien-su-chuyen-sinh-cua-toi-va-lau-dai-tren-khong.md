@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Biên Niên Sử Chuyển Sinh Của Tôi Và Lâu Đài Trên Không
+categories: novel
 ---
 
 ### Phần I: Khởi Đầu Sai Số
