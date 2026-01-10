@@ -14,10 +14,13 @@ permalink: /about/
 
 <br/><br/><br/>
 
-- **Name:** **Yume Chiyomi** ~ **夢ちよみ**
-- **Location:** **VIET NAM**
-- **Interests:** science, programming, computers, DIY, etc.
-- **Skilled in:** JavaScript, Ruby, PHP, Hex, Python
+<ul>
+<li><strong>Name:</strong> <strong>Yume Chiyomi</strong> ~ <strong>夢ちよみ</strong></li>
+<li><strong>Location:</strong> <strong>VIET NAM</strong></li>
+<li><strong>Interests:</strong> science, programming, computers, DIY, etc.</li>
+<li><strong>Skilled in:</strong> JavaScript, Ruby, PHP, Hex, Python</li>
+</ul>
+
 
 <br/><br/>
 
@@ -25,16 +28,14 @@ permalink: /about/
 
 <br/><br/>
 
-- **[Let's Go](https://github.com/phongtnt/let-s-go)**  
-  Combining Japanese visual novel features such as voice acting, a cute anime art style alongside beautiful backgrounds, with a familiar Canadian setting.  
-  Recommended for people unfamiliar with the visual novel medium, or those who want a lighter, feel-good story.
-
-- **[Average Routine](https://github.com/phongtnt/averageroutine)**  
-  An anime-themed turn-based RPG.
-
-- **[AIeD](https://github.com/phongtnt/aied)**  
-  AIeD is an intelligent educational chatbot that supports students, teachers, and parents in searching for knowledge, answering questions about subjects, and providing effective learning tips.  
-  Developed with a user-friendly, cross-platform interface.
+<ul>
+<li><p><strong><a href="https://github.com/phongtnt/let-s-go">Let&#39;s Go</a></strong><br>Combining Japanese visual novel features such as voice acting, a cute anime art style alongside beautiful backgrounds, with a familiar Canadian setting.<br>Recommended for people unfamiliar with the visual novel medium, or those who want a lighter, feel-good story.</p>
+</li>
+<li><p><strong><a href="https://github.com/phongtnt/averageroutine">Average Routine</a></strong><br>An anime-themed turn-based RPG.</p>
+</li>
+<li><p><strong><a href="https://github.com/phongtnt/aied">AIeD</a></strong><br>AIeD is an intelligent educational chatbot that supports students, teachers, and parents in searching for knowledge, answering questions about subjects, and providing effective learning tips.<br>Developed with a user-friendly, cross-platform interface.</p>
+</li>
+</ul>
 
 <img width="270" align="right" alt="tunjuk" src="https://github.com/user-attachments/assets/6087084f-1eec-4ab7-ba32-0cbe9b575ed8" />
 
