@@ -1,0 +1,27 @@
+<div id="cookie-banner" style="position:fixed;bottom:0;width:100%;background:#222;color:#fff;padding:10px;text-align:center;z-index:1000;">
+  Chúng tôi sử dụng cookies để nâng cao trải nghiệm. 
+  <button id="accept-cookies" style="margin-left:10px;">Đồng ý</button>
+</div>
+
+<script>
+  document.getElementById('accept-cookies').onclick = function() {
+    localStorage.setItem('cookies_accepted', 'true');
+    document.getElementById('cookie-banner').style.display = 'none';
+
+    // Kích hoạt GA4 sau khi đồng ý
+    var script = document.createElement('script');
+    script.src = "https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}";
+    script.async = true;
+    document.head.appendChild(script);
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ site.google_analytics }}');
+  };
+
+  // Kiểm tra nếu đã đồng ý
+  if(localStorage.getItem('cookies_accepted') === 'true'){
+    document.getElementById('cookie-banner').style.display = 'none';
+  }
+</script>
