@@ -38,7 +38,7 @@
     const box = document.getElementById("mascot-box");
     
     const img = new Image();
-    img.src = "{{ site.baseurl }}/_layouts/img/character.png";
+    img.src = canvas.dataset.img;
     let state = 0;
     // 0 = idle
     // 1 = hover
@@ -106,6 +106,12 @@
   </script>
   <body>
     {% include cookie-banner.html %}
+    <canvas
+      id="mascot"
+      width="216"
+      height="216"
+      data-img="{{ '/_layouts/img/character.png' | relative_url }}">
+    </canvas>
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
