@@ -436,3 +436,15 @@ body.dark code {
   background: rgba(30,30,55,.85);
   color: #e0e2ff;
 }
+/* =====================================================
+   DARK MODE – HEADING FIX (TITLE COLOR)
+===================================================== */
+
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark h4,
+body.dark h5,
+body.dark h6 {
+  color: #f0f1ff !important;
+}
