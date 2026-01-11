@@ -92,7 +92,51 @@
         </footer>
       </div>
     </div>
-
+    <style>
+    
+      /* BOX Ở GÓC WEB */
+      #mascot-box {
+        position: fixed;
+        right: -90px;        /* 👈 ẨN (theo size sau khi thu nhỏ) */
+        bottom: 16px;        /* sát góc dưới */
+        z-index: 9999;
+        transition: right 0.35s ease;
+      }
+    
+      /* HIỆN RA */
+       #mascot-box.show {
+        right: 0px;         /* 👈 chừa 1 xíu cho đẹp */
+      }
+    
+      /* THU NHỎ MẠNH */
+       #mascot-inner {
+       transform: scale(0.50);      /* 🔥 NHỎ HẲN */
+        transform-origin: bottom right;
+    
+        opacity: 0.35;
+        transition: transform 0.2s ease, opacity 0.2s ease;
+      }
+    
+      /* Hover */
+      #mascot-box.show #mascot-inner:hover {
+        transform: scale(0.60);      /* phóng nhẹ khi rê */
+        opacity: 1;
+      }
+    
+      /* Canvas */
+      #mascot-box canvas {
+        display: block;
+        cursor: pointer;
+      }
+    
+    </style>
+    
+    <div id="mascot-box">
+      <div id="mascot-inner">
+        <canvas id="mascot" width="216" height="216"></canvas>
+      </div>
+    </div>
+    <script src="main.js"></script>
     {% include analytics.html %}
   </body>
 </html>
