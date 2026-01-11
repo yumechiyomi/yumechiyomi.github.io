@@ -650,3 +650,31 @@ body.dark blockquote {
 body.dark footer svg {
   fill: #cfd1ff;
 }
+/* block */
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  margin-left: 16px;
+}
+
+.theme-toggle svg {
+  fill: #555;
+  transition: all .35s ease;
+}
+
+/* LIGHT MODE */
+#icon-moon {
+  display: none;
+}
+
+/* DARK MODE */
+body.dark #icon-sun {
+  display: none;
+}
+
+body.dark #icon-moon {
+  display: block;
+  fill: #cfd1ff;
+}
