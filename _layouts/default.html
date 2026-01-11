@@ -101,14 +101,10 @@
     
     /* Scroll logic: gần đáy → hiện */
     window.addEventListener("scroll", () => {
-      const scrollY = window.scrollY;
-      const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+      const maxScroll =
+        document.documentElement.scrollHeight - window.innerHeight;
     
-      if (scrollY > maxScroll * 0.5) {
-        box.classList.add("show");   // lồi ra
-      } else {
-        box.classList.remove("show"); // thụt vào
-      }
+      mascotBox.classList.toggle("show", window.scrollY > maxScroll * 0.1);
     });
   </script>
   <body>
