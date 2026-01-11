@@ -757,3 +757,35 @@ body.dark .category-card,
 body.dark .tag-card {
   background: rgba(30,32,40,0.75);
 }
+/* ==============================
+   ABOUT PAGE – DARK MODE FIX
+============================== */
+
+.about-page {
+  color: inherit;
+}
+
+.about-page li,
+.about-page li p,
+.about-page li strong,
+.about-page span {
+  color: inherit;
+}
+
+.about-page li strong {
+  font-weight: 600;
+}
+
+.about-page a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.about-page a:hover {
+  text-decoration: underline;
+}
+
+.about-page sub {
+  color: inherit;
+  opacity: 0.75;
+}
