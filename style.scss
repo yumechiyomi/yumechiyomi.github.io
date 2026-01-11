@@ -739,3 +739,6 @@ nav button {
 nav ::marker {
   display: none;
 }
+body:not(.dark) .theme-toggle .icon-sun {
+  stroke: #f1b84b;
+}
