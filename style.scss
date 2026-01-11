@@ -721,3 +721,21 @@ body.dark .theme-toggle .icon-moon {
 .theme-toggle:hover svg {
   transform: rotate(12deg) scale(1.05);
 }
+/* ===== FIX DOT (BULLET) TRONG NAV ===== */
+
+nav {
+  list-style: none;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav button {
+  list-style: none;
+}
+
+/* Nếu browser vẫn render marker */
+nav ::marker {
+  display: none;
+}
