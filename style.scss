@@ -522,3 +522,48 @@ footer {
 .animate-fade {
   animation: fuwari .7s ease both;
 }
+/* =========================================
+   DARK MODE TOGGLE BUTTON
+========================================= */
+
+#theme-toggle {
+  background: rgba(255,255,255,.6);
+  border: none;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  margin-left: 18px;
+  cursor: pointer;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  backdrop-filter: blur(6px);
+  box-shadow: 0 8px 20px rgba(120,110,200,.25);
+
+  transition: all .3s ease;
+}
+
+#theme-toggle:hover {
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 12px 28px rgba(120,110,200,.35);
+}
+
+#theme-toggle svg {
+  width: 18px;
+  height: 18px;
+  fill: #5b5bd6;
+  transition: fill .3s ease, transform .3s ease;
+}
+
+/* ===== DARK MODE BUTTON ===== */
+
+.dark #theme-toggle {
+  background: rgba(30,30,60,.8);
+}
+
+.dark #theme-toggle svg {
+  fill: #cfd1ff;
+  transform: rotate(-20deg);
+}
