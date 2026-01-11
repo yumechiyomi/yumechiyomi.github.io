@@ -1,14 +1,62 @@
-<div id="cookie-banner" style="position:fixed;bottom:0;width:100%;background:#222;color:#fff;padding:10px;text-align:center;z-index:1000;">
-  Chúng tôi sử dụng cookies để nâng cao trải nghiệm. 
-  <button id="accept-cookies" style="margin-left:10px;">Đồng ý</button>
+<style>
+  #cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.9);
+    color: #fff;
+    padding: 15px 20px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 9999;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.3);
+  }
+  #cookie-banner p {
+    margin: 0;
+    flex: 1 1 300px;
+  }
+  #cookie-banner button {
+    margin-left: 10px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.2s;
+  }
+  #accept-cookies {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  #accept-cookies:hover { background-color: #45a049; }
+
+  #reject-cookies {
+    background-color: #f44336;
+    color: #fff;
+  }
+  #reject-cookies:hover { background-color: #d73833; }
+
+  @media(max-width: 500px){
+    #cookie-banner { flex-direction: column; text-align: center; }
+    #cookie-banner button { margin: 10px 5px 0 5px; }
+  }
+</style>
+
+<div id="cookie-banner">
+  <p>Chúng tôi sử dụng cookies để nâng cao trải nghiệm và phân tích dữ liệu. Bạn có đồng ý không?</p>
+  <div>
+    <button id="accept-cookies">Đồng ý</button>
+    <button id="reject-cookies">Từ chối</button>
+  </div>
 </div>
 
 <script>
-  document.getElementById('accept-cookies').onclick = function() {
-    localStorage.setItem('cookies_accepted', 'true');
-    document.getElementById('cookie-banner').style.display = 'none';
-
-    // Kích hoạt GA4 sau khi đồng ý
+  function loadGA() {
     var script = document.createElement('script');
     script.src = "https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}";
     script.async = true;
@@ -18,10 +66,30 @@
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', '{{ site.google_analytics }}');
-  };
+  }
 
-  // Kiểm tra nếu đã đồng ý
+  // Kiểm tra trạng thái
   if(localStorage.getItem('cookies_accepted') === 'true'){
     document.getElementById('cookie-banner').style.display = 'none';
+    loadGA();
   }
+  if(localStorage.getItem('cookies_rejected') === 'true'){
+    document.getElementById('cookie-banner').style.display = 'none';
+  }
+
+  // Đồng ý cookie
+  document.getElementById('accept-cookies').onclick = function() {
+    localStorage.setItem('cookies_accepted', 'true');
+    localStorage.removeItem('cookies_rejected');
+    document.getElementById('cookie-banner').style.display = 'none';
+    loadGA();
+  };
+
+  // Từ chối cookie
+  document.getElementById('reject-cookies').onclick = function() {
+    localStorage.setItem('cookies_rejected', 'true');
+    localStorage.removeItem('cookies_accepted');
+    document.getElementById('cookie-banner').style.display = 'none';
+    // GA không load
+  };
 </script>
