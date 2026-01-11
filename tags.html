@@ -11,7 +11,7 @@ permalink: /tags/
         <li>
           <a href="{{ site.baseurl }}/tags/#{{ tag[0] | slugify }}" data-toggle="tab">
             {{ tag[0] | capitalize }}
-            <span class="badge pull-right">({{ tag[1].size }} post)</span>
+            <span>({{ tag[1].size }} post)</span>
           </a>
         </li>
       {% endfor %}
