@@ -14,7 +14,25 @@
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
-
+  <script>
+    const toggle = document.getElementById("theme-toggle");
+    const root = document.documentElement;
+  
+    // Load saved mode
+    if (localStorage.getItem("theme") === "dark") {
+      root.classList.add("dark");
+    }
+  
+    toggle.addEventListener("click", () => {
+      root.classList.toggle("dark");
+  
+      if (root.classList.contains("dark")) {
+        localStorage.setItem("theme", "dark");
+      } else {
+        localStorage.setItem("theme", "light");
+      }
+    });
+  </script>
   <body>
     <div class="wrapper-masthead">
       <div class="container">
