@@ -742,3 +742,18 @@ nav ::marker {
 body:not(.dark) .theme-toggle .icon-sun {
   stroke: #f1b84b;
 }
+.post-card,
+.page,
+.category-card,
+.tag-card {
+  background: rgba(255,255,255,0.7);
+  border-radius: 18px;
+  padding: 20px;
+}
+
+body.dark .post-card,
+body.dark .page,
+body.dark .category-card,
+body.dark .tag-card {
+  background: rgba(30,32,40,0.75);
+}
