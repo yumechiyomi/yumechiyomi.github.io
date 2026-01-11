@@ -479,3 +479,46 @@ footer {
   padding: 2px 8px;
   border-radius: 999px;
 }
+/* =========================================
+   PAGE CARD (ABOUT / PAGE)
+   SAFE – NO BREAK
+========================================= */
+
+.page-card {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(10px);
+
+  border-radius: 22px;
+  padding: 36px 40px;
+  margin: 48px auto;
+
+  box-shadow:
+    0 30px 60px rgba(120,110,200,.18),
+    inset 0 0 0 1px rgba(255,255,255,.6);
+
+  max-width: 860px;
+}
+
+/* Header */
+.page-header {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.page-title {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #5a4f8c;
+}
+
+/* Content */
+.page-content {
+  font-size: 1.05rem;
+  line-height: 1.9;
+  color: #444;
+}
+
+/* Animation */
+.animate-fade {
+  animation: fuwari .7s ease both;
+}
