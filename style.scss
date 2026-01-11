@@ -585,3 +585,68 @@ body.dark .theme-toggle svg {
   fill: #d4d7ff;
   transform: rotate(-20deg);
 }
+/* ===============================
+   DARK MODE – FULL APPLY
+================================ */
+
+body.dark {
+  background: radial-gradient(circle at top, #151424, #0d0c18);
+  color: #d6d7ee;
+}
+
+/* MAIN CARD / CONTAINER */
+body.dark .container {
+  background: transparent;
+}
+
+/* POST CARD */
+body.dark .post {
+  background: rgba(25,25,45,.92);
+  box-shadow: 0 30px 70px rgba(0,0,0,.45);
+}
+
+/* HEADER */
+body.dark .masthead {
+  background: transparent;
+}
+
+body.dark .site-name a {
+  color: #e6e7ff;
+}
+
+body.dark .site-description {
+  color: #a8a9cc;
+}
+
+/* NAV */
+body.dark nav a {
+  color: #cfd1ff;
+}
+
+body.dark nav a::after {
+  background: linear-gradient(90deg, #9aa0ff, #c7cbff);
+}
+
+/* TEXT */
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark h4 {
+  color: #f0f1ff;
+}
+
+body.dark p {
+  color: #d2d3ee;
+}
+
+/* BLOCKQUOTE */
+body.dark blockquote {
+  background: linear-gradient(135deg, #1f1f3a, #17172b);
+  border-left-color: #9ea2ff;
+  color: #c7c9ff;
+}
+
+/* FOOTER ICONS */
+body.dark footer svg {
+  fill: #cfd1ff;
+}
