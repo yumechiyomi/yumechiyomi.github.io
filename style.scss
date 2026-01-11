@@ -522,6 +522,10 @@ footer {
 .animate-fade {
   animation: fuwari .7s ease both;
 }
+.dark body {
+  background: radial-gradient(circle at top, #1a1930, #0f0e1d);
+  color: #d6d7ee;
+}
 /* =========================================
    DARK MODE TOGGLE BUTTON
 ========================================= */
