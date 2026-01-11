@@ -15,13 +15,6 @@
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
   <script>
-    const canvas = document.getElementById("mascot");
-    const ctx = canvas.getContext("2d");
-    const box = document.getElementById("mascot-box");
-    
-    const img = new Image();
-    img.src = "img/character.png";
-    
     document.addEventListener("DOMContentLoaded", function () {
       const toggle = document.getElementById("theme-toggle");
       if (!toggle) return;
@@ -40,6 +33,12 @@
         );
       });
     });
+    const canvas = document.getElementById("mascot");
+    const ctx = canvas.getContext("2d");
+    const box = document.getElementById("mascot-box");
+    
+    const img = new Image();
+    img.src = "img/character.png";
     let state = 0;
     // 0 = idle
     // 1 = hover
