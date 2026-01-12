@@ -185,47 +185,41 @@
       /* BOX Ở GÓC WEB */
       #mascot-box {
         position: fixed;
-        right: -36px;      /* 👈 bù scale 0.5 */
-        bottom: 36px;      /* 👈 kéo LÊN lại */
+        right: -18px;          /* 👈 thụt nhẹ, KHÔNG quá tay */
+        bottom: 64px;          /* 👈 kéo LÊN để luôn trong tầm nhìn */
         z-index: 9999;
         transition: right 0.35s ease;
       }
-
-    
+      
       /* HIỆN RA */
-       #mascot-box.show {
-        right: 0px;         /* 👈 chừa 1 xíu cho đẹp */
+      #mascot-box.show {
+        right: 8px;            /* 👈 lòi ra một chút cho đẹp */
       }
-    
-      /* THU NHỎ MẠNH */
+      
+      /* KHUNG HIỂN THỊ (KHÔNG SCALE Ở ĐÂY NỮA) */
       #mascot-inner {
         width: 72px;
         height: 72px;
+        opacity: 0.35;
+        transition: opacity 0.2s ease;
+      }
+      
+      /* Hover */
+      #mascot-box.show #mascot-inner:hover {
+        opacity: 1;
+      }
+      
+      /* Canvas – scale tại đây để KHÔNG LỆCH VỊ TRÍ */
+      #mascot-box canvas {
+        width: 72px;
+        height: 72px;
+        display: block;
+        cursor: pointer;
       
         transform: scale(0.5);
         transform-origin: bottom right;
-      
-        opacity: 0.35;
-        transition: transform 0.2s ease, opacity 0.2s ease;
       }
 
-      #mascot-inner {
-        width: 72px;       /* 👈 FIX CỨNG KÍCH THƯỚC HIỂN THỊ */
-        height: 72px;
-        
-      transform-origin: bottom right;
-      }
-      /* Hover */
-      #mascot-box.show #mascot-inner:hover {
-        transform: scale(0.60);      /* phóng nhẹ khi rê */
-        opacity: 1;
-      }
-    
-      /* Canvas */
-      #mascot-box canvas {
-        display: block;
-        cursor: pointer;
-      }
     
     </style>
     
