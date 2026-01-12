@@ -185,11 +185,12 @@
       /* BOX Ở GÓC WEB */
       #mascot-box {
         position: fixed;
-        right: -90px;        /* 👈 ẨN (theo size sau khi thu nhỏ) */
-        bottom: 16px;        /* sát góc dưới */
+        right: -36px;      /* 👈 bù scale 0.5 */
+        bottom: 36px;      /* 👈 kéo LÊN lại */
         z-index: 9999;
         transition: right 0.35s ease;
       }
+
     
       /* HIỆN RA */
        #mascot-box.show {
@@ -197,13 +198,17 @@
       }
     
       /* THU NHỎ MẠNH */
-       #mascot-inner {
-       transform: scale(0.50);      /* 🔥 NHỎ HẲN */
+      #mascot-inner {
+        width: 72px;
+        height: 72px;
+      
+        transform: scale(0.5);
         transform-origin: bottom right;
-    
+      
         opacity: 0.35;
         transition: transform 0.2s ease, opacity 0.2s ease;
       }
+
       #mascot-inner {
         width: 72px;       /* 👈 FIX CỨNG KÍCH THƯỚC HIỂN THỊ */
         height: 72px;
