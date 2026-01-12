@@ -185,22 +185,22 @@
       /* BOX Ở GÓC WEB */
       #mascot-box {
         position: fixed;
-        right: -18px;          /* 👈 thụt nhẹ, KHÔNG quá tay */
-        bottom: 64px;          /* 👈 kéo LÊN để luôn trong tầm nhìn */
+        right: -12px;       /* thụt rất nhẹ */
+        bottom: 56px;       /* vẫn trong tầm nhìn */
         z-index: 9999;
         transition: right 0.35s ease;
       }
       
       /* HIỆN RA */
       #mascot-box.show {
-        right: 8px;            /* 👈 lòi ra một chút cho đẹp */
+        right: 12px;
       }
       
-      /* KHUNG HIỂN THỊ (KHÔNG SCALE Ở ĐÂY NỮA) */
+      /* KHUNG HIỂN THỊ */
       #mascot-inner {
-        width: 72px;
-        height: 72px;
-        opacity: 0.35;
+        width: 120px;       /* 🔥 TO HƠN */
+        height: 120px;
+        opacity: 0.4;
         transition: opacity 0.2s ease;
       }
       
@@ -209,14 +209,14 @@
         opacity: 1;
       }
       
-      /* Canvas – scale tại đây để KHÔNG LỆCH VỊ TRÍ */
+      /* Canvas */
       #mascot-box canvas {
-        width: 72px;
-        height: 72px;
+        width: 120px;
+        height: 120px;
         display: block;
         cursor: pointer;
       
-        transform: scale(0.5);
+        transform: scale(0.6);   /* 🔥 tăng từ 0.5 → 0.6 */
         transform-origin: bottom right;
       }
 
