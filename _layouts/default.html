@@ -122,34 +122,11 @@
     
     });
   </script>
-  <!-- ================= LIVE2D WIDGET (VIỆT HÓA – KHÔNG GIỌNG) ================= -->
-  
-  <!-- 1. Load Live2D widget -->
   <script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
   
-  <!-- 2. Chặn API hitokoto tiếng Trung (vẫn giữ nút) -->
-  <script>
-  (function () {
-    const _fetch = window.fetch;
-    window.fetch = function (...args) {
-      if (typeof args[0] === "string" && args[0].includes("hitokoto")) {
-        return Promise.resolve(
-          new Response(
-            JSON.stringify({ hitokoto: "Chào bạn nha~ Chúc bạn đọc vui vẻ!" }),
-            { headers: { "Content-Type": "application/json" } }
-          )
-        );
-      }
-      return _fetch.apply(this, args);
-    };
-  })();
-  </script>
-  
-  <!-- 3. Khởi tạo Live2D -->
   <script>
   initWidget({
     waifuPath: "/assets/live2d/waifu-tips-vi.json",
-    apiPath: "https://live2d.fghrsh.net/api/",
     tools: [
       "hitokoto",
       "asteroids",
@@ -161,48 +138,6 @@
     ]
   });
   </script>
-  
-  <!-- 4. Việt hóa tooltip toolbar -->
-  <script>
-  const TOOL_VI = {
-    hitokoto: "Câu nói",
-    asteroids: "Trò chơi",
-    "switch-model": "Đổi nhân vật",
-    "switch-texture": "Đổi trang phục",
-    photo: "Chụp ảnh",
-    info: "Thông tin",
-    quit: "Tắt"
-  };
-  
-  const toolObserver = new MutationObserver(() => {
-    document.querySelectorAll(".waifu-tool span").forEach(el => {
-      const key = el.dataset.name;
-      if (TOOL_VI[key]) el.textContent = TOOL_VI[key];
-    });
-  });
-  
-  toolObserver.observe(document.body, {
-    childList: true,
-    subtree: true
-  });
-  </script>
-  
-  <!-- 5. Thay popup info tiếng Trung -->
-  <script>
-  document.addEventListener("click", e => {
-    const btn = e.target.closest(".waifu-tool.info");
-    if (btn) {
-      e.stopImmediatePropagation();
-      alert(
-        "Live2D trợ lý của blog\n" +
-        "Phiên bản Việt hóa\n\n" +
-        "Chúc bạn đọc vui vẻ!"
-      );
-    }
-  }, true);
-  </script>
-  
-  <!-- ================= END LIVE2D ================= -->
   <body>
     {% include cookie-banner.html %}
     <div class="wrapper-masthead">
