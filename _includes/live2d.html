@@ -1,0 +1,24 @@
+<!-- Live2D CSS -->
+<link rel="stylesheet"
+  href="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/dist/waifu.css">
+
+<!-- Live2D engine -->
+<script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/dist/live2d.min.js"></script>
+
+<!-- Widget code (KHÔNG autoload) -->
+<script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/dist/waifu-tips.js"></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  if (typeof initWidget !== "function") {
+    console.error("Live2D initWidget not loaded");
+    return;
+  }
+
+  initWidget({
+    waifuPath: "/assets/waifu/waifu-tips-vi.json",
+    drag: true,
+    logLevel: "warn"
+  });
+});
+</script>
