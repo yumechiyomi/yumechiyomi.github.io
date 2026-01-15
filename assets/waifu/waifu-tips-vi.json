@@ -1,0 +1,97 @@
+{
+  "mouseover": [
+    {
+      "selector": "#live2d",
+      "text": [
+        "Bạn đang làm gì đó, mau bỏ tay ra đi~~",
+        "Chuột… chuột đặt sai chỗ rồi!",
+        "Này! Bạn định làm gì vậy?",
+        "Sợ quá (ノ≧∇≦)ノ",
+        "Biến thái!"
+      ]
+    },
+    {
+      "selector": "#waifu-tool-hitokoto",
+      "text": [
+        "Nhấn vào đây sẽ có một câu nói hay đó~"
+      ]
+    },
+    {
+      "selector": "#waifu-tool-asteroids",
+      "text": [
+        "Muốn chơi một trò nhỏ không?"
+      ]
+    },
+    {
+      "selector": "#waifu-tool-switch-model",
+      "text": [
+        "Muốn đổi sang nhân vật khác à?"
+      ]
+    },
+    {
+      "selector": "#waifu-tool-switch-texture",
+      "text": [
+        "Muốn đổi trang phục cho mình hả?"
+      ]
+    },
+    {
+      "selector": "#waifu-tool-photo",
+      "text": [
+        "Chụp ảnh chung với mình nha~"
+      ]
+    },
+    {
+      "selector": "#waifu-tool-info",
+      "text": [
+        "Bạn muốn biết thêm về mình không?"
+      ]
+    },
+    {
+      "selector": "#waifu-tool-quit",
+      "text": [
+        "Ơ… bạn sắp rời đi à?"
+      ]
+    }
+  ],
+
+  "click": [
+    {
+      "selector": "#live2d",
+      "text": [
+        "Á! Đừng chạm vào mình!",
+        "Ơ kìa!",
+        "Nhẹ tay thôi chứ!"
+      ]
+    }
+  ],
+
+  "idle": [
+    "Sao vậy, không có gì làm à?",
+    "Mình đứng đây lâu rồi đó~",
+    "Đọc blog nhớ kéo xuống xem tiếp nha~",
+    "Hình như bạn đang suy nghĩ gì đó?",
+    "Lâu rồi không động đậy kìa~"
+  ],
+
+  "time": [
+    {
+      "hour": "00-06",
+      "text": "Khuya rồi đó, không ngủ là không tốt đâu~"
+    },
+    {
+      "hour": "06-12",
+      "text": "Chào buổi sáng! Hôm nay cố gắng lên nha!"
+    },
+    {
+      "hour": "12-18",
+      "text": "Buổi chiều rồi, nghỉ ngơi chút đi~"
+    },
+    {
+      "hour": "18-24",
+      "text": "Buổi tối rồi, hôm nay của bạn thế nào?"
+    }
+  ],
+
+  "welcome": "Chào mừng bạn đến với \"$1\"",
+  "referrer": "Bạn vừa ghé thăm từ $1 đó~"
+}
