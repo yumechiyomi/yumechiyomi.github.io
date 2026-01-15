@@ -1,19 +1,41 @@
 {
-  "idle": [
-    "Sao vậy, không có gì làm à?",
-    "Mình đứng đây lâu rồi đó~",
-    "Đọc blog nhớ kéo xuống xem tiếp nha~",
-    "Hình như bạn đang suy nghĩ gì đó?",
-    "Lâu rồi không động đậy kìa~",
-    "Trang này có gì thú vị không?",
-    "Mỏi mắt thì nghỉ chút nha~",
-    "Ngồi lâu trước màn hình không tốt đâu đó~",
-    "Có cần mình nhắc giờ nghỉ không?",
-    "Đang tập trung ghê ha~"
-  ],
-
-  "welcome": "Chào mừng bạn đến với \"$1\"",
-  "referrer": "Bạn vừa ghé thăm từ $1 đó~",
+  "message": {
+    "default": [
+      "Sao vậy, không có gì làm à?",
+      "Mình đứng đây lâu rồi đó~",
+      "Đọc blog nhớ kéo xuống xem tiếp nha~",
+      "Hình như bạn đang suy nghĩ gì đó?",
+      "Lâu rồi không động đậy kìa~",
+      "Trang này có gì thú vị không?",
+      "Mỏi mắt thì nghỉ chút nha~",
+      "Ngồi lâu trước màn hình không tốt đâu đó~",
+      "Có cần mình nhắc giờ nghỉ không?",
+      "Đang tập trung ghê ha~"
+    ],
+    "console": "Đừng mở console lung tung nha~",
+    "copy": "Ơ kìa~ sao lại copy rồi?",
+    "visibilitychange": "Chào mừng bạn quay lại~",
+    "changeSuccess": "Đổi thành công rồi đó~",
+    "changeFail": "Đổi không được rồi, thử lại sau nha~",
+    "photo": "Chụp xong nhớ lưu ảnh đó~",
+    "goodbye": "Tạm biệt nha~ nhớ quay lại đó!",
+    "hitokoto": "Để mình tìm cho bạn một câu nói hay nha~",
+    "welcome": "Chào mừng bạn đến với \"$1\"",
+    "referrer": "Bạn vừa ghé thăm từ $1 đó~",
+    "hoverBody": [
+      "Ê ê ê! Nhìn thôi đừng động tay~",
+      "Hơi gần đó nha!",
+      "Nhột đó~ đừng có chọc hoài!",
+      "Á! Giật cả mình!"
+    ],
+    "tapBody": [
+      "Á! Đừng chạm vào mình!",
+      "Ơ kìa!",
+      "Nhẹ tay thôi chứ!",
+      "Ê! Đau đó nha!",
+      "Bấm hoài luôn á!"
+    ]
+  },
 
   "time": [
     {
@@ -34,89 +56,90 @@
     }
   ],
 
-  "events": {
-    "mouseover": [
-      {
-        "selector": "#live2d",
-        "text": [
-          "Bạn đang làm gì đó, mau bỏ tay ra đi~~",
-          "Chuột… chuột đặt sai chỗ rồi!",
-          "Này! Bạn định làm gì vậy?",
-          "Sợ quá (ノ≧∇≦)ノ",
-          "Biến thái!",
-          "Ê ê ê! Nhìn thôi đừng động tay~",
-          "Hơi gần đó nha!",
-          "Nhột đó~ đừng có chọc hoài!",
-          "Á! Giật cả mình!"
-        ]
-      },
-      {
-        "selector": "#waifu-tool-hitokoto",
-        "text": [
-          "Nhấn vào đây sẽ có một câu nói hay đó~",
-          "Một câu nói nhỏ cho bạn nè~",
-          "Biết đâu đọc xong lại có động lực thì sao?"
-        ]
-      },
-      {
-        "selector": "#waifu-tool-asteroids",
-        "text": [
-          "Muốn chơi một trò nhỏ không?",
-          "Giải trí chút cho đỡ căng thẳng nè~"
-        ]
-      },
-      {
-        "selector": "#waifu-tool-switch-model",
-        "text": [
-          "Muốn đổi sang nhân vật khác à?",
-          "Không thích mình nữa hả?",
-          "Đổi người mới cho đỡ chán nè~"
-        ]
-      },
-      {
-        "selector": "#waifu-tool-switch-texture",
-        "text": [
-          "Muốn đổi trang phục cho mình hả?",
-          "Bộ này nhìn ổn không?",
-          "Đổi đồ chút cho mới mẻ nha~"
-        ]
-      },
-      {
-        "selector": "#waifu-tool-photo",
-        "text": [
-          "Chụp ảnh chung với mình nha~",
-          "Để mình tạo dáng nè~",
-          "Nhớ lưu ảnh đó!"
-        ]
-      },
-      {
-        "selector": "#waifu-tool-info",
-        "text": [
-          "Bạn muốn biết thêm về mình không?",
-          "Có gì tò mò cứ hỏi nha~"
-        ]
-      },
-      {
-        "selector": "#waifu-tool-quit",
-        "text": [
-          "Ơ… bạn sắp rời đi à?",
-          "Đi thiệt hả?",
-          "Nhớ quay lại nha~"
-        ]
-      }
-    ],
+  "mouseover": [
+    {
+      "selector": "#live2d",
+      "text": [
+        "Bạn đang làm gì đó, mau bỏ tay ra đi~~",
+        "Chuột… chuột đặt sai chỗ rồi!",
+        "Này! Bạn định làm gì vậy?",
+        "Sợ quá (ノ≧∇≦)ノ",
+        "Biến thái!",
+        "Ê ê ê! Nhìn thôi đừng động tay~",
+        "Hơi gần đó nha!",
+        "Nhột đó~ đừng có chọc hoài!",
+        "Á! Giật cả mình!"
+      ]
+    },
+    {
+      "selector": "#waifu-tool-hitokoto",
+      "text": [
+        "Nhấn vào đây sẽ có một câu nói hay đó~",
+        "Một câu nói nhỏ cho bạn nè~",
+        "Biết đâu đọc xong lại có động lực thì sao?"
+      ]
+    },
+    {
+      "selector": "#waifu-tool-asteroids",
+      "text": [
+        "Muốn chơi một trò nhỏ không?",
+        "Giải trí chút cho đỡ căng thẳng nè~"
+      ]
+    },
+    {
+      "selector": "#waifu-tool-switch-model",
+      "text": [
+        "Muốn đổi sang nhân vật khác à?",
+        "Không thích mình nữa hả?",
+        "Đổi người mới cho đỡ chán nè~"
+      ]
+    },
+    {
+      "selector": "#waifu-tool-switch-texture",
+      "text": [
+        "Muốn đổi trang phục cho mình hả?",
+        "Bộ này nhìn ổn không?",
+        "Đổi đồ chút cho mới mẻ nha~"
+      ]
+    },
+    {
+      "selector": "#waifu-tool-photo",
+      "text": [
+        "Chụp ảnh chung với mình nha~",
+        "Để mình tạo dáng nè~",
+        "Nhớ lưu ảnh đó!"
+      ]
+    },
+    {
+      "selector": "#waifu-tool-info",
+      "text": [
+        "Bạn muốn biết thêm về mình không?",
+        "Có gì tò mò cứ hỏi nha~"
+      ]
+    },
+    {
+      "selector": "#waifu-tool-quit",
+      "text": [
+        "Ơ… bạn sắp rời đi à?",
+        "Đi thiệt hả?",
+        "Nhớ quay lại nha~"
+      ]
+    }
+  ],
 
-    "click": [
-      {
-        "selector": "#live2d",
-        "text": [
-          "Á! Đừng chạm vào mình!",
-          "Ơ kìa!",
-          "Nhẹ tay thôi chứ!",
-          "Ê! Đau đó nha!",
-          "Bấm hoài luôn á!"
-        ]
-      }
-    ]
-  }
+  "click": [
+    {
+      "selector": "#live2d",
+      "text": [
+        "Á! Đừng chạm vào mình!",
+        "Ơ kìa!",
+        "Nhẹ tay thôi chứ!",
+        "Ê! Đau đó nha!",
+        "Bấm hoài luôn á!"
+      ]
+    }
+  ],
+
+  "seasons": [],
+  "models": []
 }
