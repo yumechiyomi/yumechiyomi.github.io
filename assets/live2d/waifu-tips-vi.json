@@ -1,0 +1,22 @@
+{
+  "mouseover": [
+    {
+      "selector": ".site-title",
+      "text": ["Đây là trang chủ nè~"]
+    },
+    {
+      "selector": "p",
+      "text": ["Đang đọc bài à?", "Nội dung hay không?"]
+    }
+  ],
+  "click": [
+    {
+      "selector": "#live2d",
+      "text": ["Ơ kìa~ đừng chọc mình"]
+    }
+  ],
+  "idle": [
+    "Chào bạn nha~",
+    "Cuộn xuống xem tiếp đi~"
+  ]
+}
