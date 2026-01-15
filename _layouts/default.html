@@ -123,6 +123,21 @@
     });
   </script>
   <script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+  <script>
+  initWidget({
+    waifuPath: "/assets/live2d/waifu-tips-vi.json",
+    apiPath: "https://live2d.fghrsh.net/api/",
+    tools: [
+      "hitokoto",
+      "asteroids",
+      "switch-model",
+      "switch-texture",
+      "photo",
+      "info",
+      "quit"
+    ]
+  });
+  </script>
   <body>
     {% include cookie-banner.html %}
     <div class="wrapper-masthead">
