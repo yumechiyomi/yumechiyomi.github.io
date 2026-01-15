@@ -122,8 +122,18 @@
     
     });
   </script>
+  <script>
+    window.onload = () => {
+      initWidget({
+        waifuPath: "{{ '/assets/live2d/waifu-tips-vi.json' | relative_url }}",
+        cdnPath: "https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/",
+        drag: true
+      });
+    };
+  </script>
+  
+  <script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
   <body>
-    {% include live2d.html %}
     {% include cookie-banner.html %}
     <div class="wrapper-masthead">
       <div class="container">
