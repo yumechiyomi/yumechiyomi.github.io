@@ -37,7 +37,10 @@
     
       const canvas = document.getElementById("mascot");
       const box = document.getElementById("mascot-box");
-    
+      const isMobile =
+        window.matchMedia("(hover: none) and (pointer: coarse)").matches;
+      
+      if (isMobile) return;
       if (!canvas || !box) {
         console.error("Mascot elements not found");
         return;
