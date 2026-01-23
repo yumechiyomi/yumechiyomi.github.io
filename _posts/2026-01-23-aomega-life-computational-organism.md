@@ -216,3 +216,5 @@ Và có thể, ở đâu đó trong không gian trạng thái hỗn loạn này,
 
 > *Tính toán không chỉ là công cụ.  
 > Nó có thể là một dạng sự sống.*
+
+> Tài liệu đầy đủ => [Download](https://drive.google.com/file/d/1aGcLN-Hh4XRdDMrqR-eRPMdnie-lMfmS/view?usp=sharing)
