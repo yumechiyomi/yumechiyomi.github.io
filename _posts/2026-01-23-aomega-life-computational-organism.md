@@ -218,3 +218,5 @@ Và có thể, ở đâu đó trong không gian trạng thái hỗn loạn này,
 > Nó có thể là một dạng sự sống.*
 
 > Tài liệu đầy đủ => [Download](https://drive.google.com/file/d/15d7Fz3YFRPyenZUtBZOWQwML3wr6rH_F/view?usp=sharing)
+
+> **Tài liệu biên soạn bởi Yume Chiyomi, mọi hành vi sao chép mà không có sự đồng ý bằng văn của tác giả đều là vi phạm pháp luật**
