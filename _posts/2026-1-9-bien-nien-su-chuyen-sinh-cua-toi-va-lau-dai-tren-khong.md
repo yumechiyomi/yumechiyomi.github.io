@@ -53,4 +53,4 @@ Mà là câu chuyện về **những gì không được ghi — nhưng vẫn ti
 
 ---
 
-> *Những gì khôngđược ghi — sẽ tiếp tục tồn tại.*
+> *Những gì không được ghi — sẽ tiếp tục tồn tại.*
