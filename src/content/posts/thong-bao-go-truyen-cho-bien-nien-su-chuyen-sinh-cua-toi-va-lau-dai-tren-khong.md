@@ -1,6 +1,6 @@
 ---
 title: Thông báo gỡ truyện Biên Niên Sử Chuyển Sinh Của Tôi Và Lâu Đài Trên Không
-published: 2026-3-14
+published: 2026-03-14T00:00:00Z
 description: Thông báo tới độc giả!
 tags:
   - chuyển sinh
