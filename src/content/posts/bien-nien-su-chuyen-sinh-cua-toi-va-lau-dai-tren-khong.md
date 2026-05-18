@@ -1,6 +1,6 @@
 ---
 title: Biên Niên Sử Chuyển Sinh Của Tôi Và Lâu Đài Trên Không
-published: 2026-05-18T02:44:37.647Z
+published: 2026-9-1T00:00:00.000Z
 description: Đây không phải câu chuyện về việc trở nên mạnh nhất.   Mà là câu chuyện về những gì không được ghi — nhưng vẫn tiếp tục tồn tại.
 category: Novel
 cover: 
