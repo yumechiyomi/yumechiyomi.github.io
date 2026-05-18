@@ -1,6 +1,6 @@
 ---
 title: Elaina Fuwari – Theme Jekyll phong cách anime nhẹ nhàng
-published: 2026-9-1T00:00:00.00Z
+published: 2026-9-1
 description: Elaina Fuwari là một theme Jekyll phong cách anime, được thiết kế theo hướng nhẹ – tối giản – dễ đọc.
 category: Web Theme
 cover: 
