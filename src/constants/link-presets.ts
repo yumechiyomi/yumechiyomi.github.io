@@ -17,6 +17,6 @@ export const LinkPresets: { [key in LinkPreset]: NavBarLink } = {
 	},
 		[LinkPreset.Chat]: {
 		name: i18n(I18nKey.archive),
-		url: "/Chat/",
+		url: "/chat/",
 	},
 };
