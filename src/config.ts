@@ -79,6 +79,11 @@ export const profileConfig: ProfileConfig = {
 			icon: "fa6-brands:github",
 			url: "https://github.com/yumechiyomi",
 		},
+		{
+			name: "Facebook",
+			icon: "fa6-brands:facebook",
+			url: "https://www.facebook.com/profile.php?id=61587337523887",
+		},
 	],
 };
 
