@@ -79,6 +79,11 @@ export const profileConfig: ProfileConfig = {
 			icon: "fa6-brands:facebook",
 			url: "https://www.facebook.com/profile.php?id=61587337523887",
 		},
+		{
+			name: "Youtube",
+			icon: "fa6-brands:youtube",
+			url: "https://www.youtube.com/@YumeChiyomi",
+		},
 	],
 };
 
