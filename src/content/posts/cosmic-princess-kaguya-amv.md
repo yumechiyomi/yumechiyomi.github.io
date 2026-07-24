@@ -1,6 +1,6 @@
 ---
 title: "Project Showcase: RAY • REPLY • TELL YOUR WORLD • REMEMBER"
-published: 2026-07-09
+published: 2026-09-07
 description: "An Anime Music Video (AMV) project inspired by Cosmic Princess Kaguya!."
 category: "Project Showcase"
 cover: "https://img.youtube.com/vi/m9Yv_FLSMnk/maxresdefault.jpg"
